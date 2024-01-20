@@ -1,0 +1,172 @@
+.orderContainer{
+    width:100%;
+    padding: 2rem;
+    background-color: rgba(250, 250, 250, 0.901);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+}
+.orderListHeader{
+    width:100%;
+    padding: 3rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.orderMainSection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.orderBackBtn{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+}
+.backBtn{
+    color: black;
+    border: 0;
+    background-color: rgba(152, 178, 255, 0);
+}
+.orderInformation{
+    width: 100%;
+    box-shadow: 1px 1px 1px rgb(165, 165, 165); 
+    text-align: start;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.886);
+
+}
+.ClosedOrderListSection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    margin:  25px auto;
+    border-radius: 10px;
+    justify-items: center;
+}
+.closedOrderCard{
+    width: 70%;
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-gap: 1rem;   
+}
+.closedOrderTitle{
+    text-align: center;
+}
+.closedOrderBox{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    grid-gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.155); 
+    box-shadow: 1px 1px 1px rgb(0, 0, 0); 
+
+}
+
+.itemImg{
+    width: 70%;
+    border-radius: 10px;
+}
+.itemTitle{
+    font-size: 1rem;
+    font-weight: normal;
+}
+.closedOrderItemContainer{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.closedOrderItemBox{
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.839);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0); 
+
+    
+}
+.closedOrderItemInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    
+}
+
+
+
+@media (max-width: 968px) {
+    .orderContainer{
+        width: 100%;
+        padding: 5px;
+    }
+    .ordersMainSection {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ClosedOrderListSection{
+        width: 100%;
+        padding-top: 10px; 
+        margin: 0;  
+    }
+    .closedOrderInfo{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;        
+    }
+    .closedOrderItemInfo{
+        font-size: medium;
+    }
+    .closedOrderCard{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .closedOrderBox{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        border: solid 1px black;
+        padding: 5px;
+        grid-gap: 0.5rem;
+    }
+    .closedOrderItemContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+    }
+    .orderInformation{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        color: white;
+        font-size: medium;
+    }
+    .closedOrderTitle{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+}

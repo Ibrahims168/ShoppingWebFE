@@ -1,0 +1,55 @@
+.SearchBarDiv {
+    margin: auto;
+    height: 40%;
+    width: 60%;
+    border: none;
+  }
+  
+  .SearchResultsList {
+    list-style-type: none;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000;
+    z-index: 999;
+    position: relative;
+  }
+  
+  .SearchResultItem {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-gap: 0.5rem;
+    border: 1px solid #ddd;
+    background-color: #fffffff5;
+    font-size: medium;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0); 
+    align-items: center;
+
+  }
+  .SearchBarInput {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border: 0;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0); 
+  }
+
+  .SearchBarImgDiv {
+    width: 100%;
+  }
+  .SearchBarImg{
+    width: 100px;
+  }
+  .noItemsFound{
+    display: grid;
+    align-items: center;
+    height: 3rem;
+    padding: 10px;
+  }
+  
+@media (max-width: 768px) {
+    .SearchBarImg{
+      width: 3rem;
+    }
+   
+
+}

@@ -1,0 +1,214 @@
+
+.orderContainer{
+    width:100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: rgba(250, 250, 250, 0.901);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+}
+.orderMainSection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.orderBackBtn{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+}
+.backBtn{
+    color: rgb(0, 0, 0);
+    border: 0;
+    background-color: rgba(152, 178, 255, 0);
+}
+.orderHeader{
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+.tempOrderSection{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    margin:  25px auto;   
+ 
+}
+.tempOrderTitle{
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.tempOrderBox{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+.tempOrderContainer{
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns:  1fr;
+    padding: 0.25rem;
+}
+.tempOrderItemImg{
+    width: 100%;    
+}
+.itemInformation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tempOrderItemContainer{
+    width: 100%;
+    height: 90%;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.tempOrderItemInfo{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.039);
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 1px 1px 0.5px rgb(0, 0, 0); 
+
+}
+.itemTitle{
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: 600;
+}
+.tempOrderItemBtnContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 0;
+}
+.tempOrderInfoBox{
+    width: 80%;
+    height: 80%;
+    max-height:300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: rgba(61, 182, 85, 0.643);
+    padding:10px;
+    justify-items: center;
+    align-items: center;
+}
+.tempOrderInfo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 0.5rem;
+}
+.tempOrderBoxBtns{
+    width: 100%;
+}
+.tempItemBtns{
+    border: 0;
+    background-color: rgba(174, 174, 174, 0.55);
+    border-radius: 0;
+}
+.outOfStock{
+    font-weight: 600;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+.faTrash{
+    color: rgb(209, 22, 22);
+}
+.faPlus{
+    color: green;
+}
+.faWarning{
+    color: rgb(246, 237, 0);
+}
+.faCheck{
+    color: green;
+}
+
+
+@media (max-width: 968px) {
+    .orderContainer{
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+    }
+    .ordersMainSection {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .orderHeader{
+        margin-top: 20px;
+        font-size: medium;
+    }
+    .tempOrderBox{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .tempOrderSection{
+        height: 100%;
+        width: 100%;
+        margin: 0;  
+    }
+    .tempOrderContainer{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns:  1fr;
+        justify-items: center;
+        padding: 0;
+    }
+    .tempOrderItemContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0;
+        padding: 0;
+    }
+    .tempOrderInfoBox{
+        height: 80%;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: start;
+        font-size: 0.8rem;
+        margin: 0;
+    }
+    .tempOrderInfo{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .tempOrderItemInfo{
+        width: 100%;
+        padding: 5px;
+        font-size: 0.8rem;
+
+    }
+    .tempOrderBoxBtns{
+        width: 50%;
+    }
+    .itemTitle{
+        font-size: 0.8rem;
+    }
+    .itemInformation{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

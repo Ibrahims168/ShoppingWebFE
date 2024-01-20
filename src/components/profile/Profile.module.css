@@ -1,0 +1,97 @@
+
+.profileContainer{
+    width: 100%;
+    padding: 2rem;
+}
+.profieBox{
+    width: 60%;
+    height: 22rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.375);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.profileUserIconBox{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 1rem;
+    margin: auto;
+}
+.icon{
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+.profileUserDetails{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    text-align: start;
+    grid-template-columns: 1fr;
+}
+.btnContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 0.5rem;
+    justify-items: center;
+    color: black;
+}
+.userBoxBtn{
+    background-color: rgb(232, 70, 86);
+    width: auto;
+    color: white;
+    transition: 0.3s ease; 
+
+}
+.userBoxBtn:hover{
+    background-color: rgb(255, 186, 193);
+    color: rgb(83, 83, 83);
+}
+.backBtnBox{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+}
+.backBtn{
+    color: black;
+    border: 0;
+    background-color: rgba(152, 178, 255, 0);
+}
+.titleProfile{
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+    .profileContainer{
+        width: 100%;
+        padding: 5px;
+    }
+    .profieBox {
+        width: 90%;
+        height: 20rem;
+        grid-template-columns: 1fr; 
+        padding: 5px;
+    }
+    .profileUserDetails{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        text-align: start;
+        grid-template-columns: 1fr;
+    }
+    .btnContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        height: 0.5rem;
+        justify-items: center;
+        grid-gap: 0.5rem;
+    }
+    
+}   

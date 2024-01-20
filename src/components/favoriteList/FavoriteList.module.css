@@ -1,0 +1,189 @@
+.favoriteSection{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.favoriteListHeader{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+}
+.orderBackBtn{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+}
+.backBtn{
+    color: rgb(0, 0, 0);
+    border: 0;
+    background-color: rgba(152, 178, 255, 0);
+}
+.favoriteItemMainBox{
+    width: 100%;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    justify-items: center;
+    margin: 25px auto;
+}
+.favoriteItemBox{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+}
+.titleFavorite{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.favoriteItemInfo{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: rgba(233, 233, 233, 0.664);
+    box-shadow: 1px 1px 1px rgb(106, 106, 106);    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: grid;
+    grid-gap: 0.5rem;
+}
+.favoriteItemImg{
+    width: 100%;
+}
+.itemInformation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.favoriteListBtnContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.faTrash{
+    color: rgb(209, 22, 22);
+}
+.faShoppingCart{
+    color: rgb(79, 110, 212);
+}
+.faExclamationTriangle{
+    color: rgb(246, 237, 0);
+    font-size: small;
+}
+.itemStockCount {
+    background-color: rgba(255, 0, 0, 0.686);
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    position: absolute;
+    width: auto;
+    padding: 5px;
+    text-align: start;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.noItemsInFavoriteList{
+   grid-column: 2;
+   font-size: 1rem;
+}
+.errorMessage {
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(255, 0, 0, 0.679);
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+}
+.itemBoxBtn{
+    border: 0;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.163);
+}
+.favoriteItemTitle{
+    font-weight: 600;
+}
+.emptyList{
+    color: black;
+    text-align: start;
+}
+.itemStock{
+    display: flex;
+}
+@media (max-width: 668px) {
+    .favoriteItemMainBox {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 5px; 
+    }
+    .favoriteItemBox{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .favoriteListbtnContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;  
+    }
+    .favoriteItemInfo{
+        font-size: 0.75rem;
+        padding: 0.25rem;
+       
+    }
+    .favoriteItemTitle{
+        font-size: medium;
+    }
+    .favoriteListHeader{
+        width: 100%;
+        padding: 5px;
+        background-color: rgba(152, 178, 255, 0);
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .titleFavorite{
+        font-size: 1.5rem;
+    }
+    .itemInformation{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .noItemsInFavoriteList{
+        grid-column: 1;
+        font-size: medium;   
+     }
+}
+@media (min-width: 668px) {
+    .favoriteItemMainBox {
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+    .outOfStock{
+        font-size: medium;
+        font-weight: 600;
+    }
+}
+@media (max-width: 668px) {
+    .favoriteItemMainBox {
+        width: 100%;
+    }
+    .outOfStock{
+        font-size: medium;
+        font-weight: 600;
+    }
+}
+@media (min-width: 1000px) {
+    .favoriteItemMainBox {
+        width: 80%;
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+  
+}

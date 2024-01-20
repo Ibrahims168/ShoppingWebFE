@@ -1,0 +1,168 @@
+.orderList{
+    width:100%;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.901);
+
+}
+.orderMainSection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.orderHeader{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+.title{
+    color: black;
+    font-size: 2rem;
+}
+.orderBackBtn{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+}
+.backBtn{
+    color: black;
+    border: 0;
+    background-color: rgba(152, 178, 255, 0);
+}
+.headerBtnTemp{
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    background-color: rgb(36, 154, 36);
+}
+.headerBtnClosed{
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    background-color: rgb(199, 39, 39);
+    color: white;
+}
+.orders{
+    color: white;
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.tempOrder{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+  
+}
+.closedOrder{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.tempOrderBox{
+    width: 90%;
+    height: 15rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.3s ease; 
+    background-color: rgba(0, 0, 0, 0.168);
+
+}
+.closedOrderBox{
+    width: 90%;
+    height: 15rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 25px auto;
+    border-radius: 10px;
+    transition: 0.3s ease; 
+    background-color: rgba(0, 0, 0, 0.168);
+
+}
+.tempOrderBox:hover{
+    background-color: rgba(64, 157, 79, 0.604);
+}
+
+.closedOrderBox:hover{
+    background-color: rgba(157, 64, 64, 0.604);
+}
+
+
+@media (max-width: 968px) {
+    .orderList{
+        width:100%; 
+        padding: 5px;
+    }
+    .orderMainSection{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .orders{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 0;
+    }
+    .orderHeader{
+        padding: 0;
+    }
+    .closedOrderBox{
+        width: 100%;
+    }
+    .tempOrder{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        padding: 10px;
+        
+    }
+    .tempOrderBox{
+        width: 100%;
+        height: 8rem;
+        display: grid;
+        justify-items: center;
+        margin: 25px auto;
+        border-radius: 10px;
+        transition: 0.3s ease; 
+        box-shadow: 1px 1px 1px rgb(0, 0, 0); 
+    }
+    .closedOrderBox{
+        width: 100%;
+        height: 8rem;
+        display: grid;
+        justify-items: center;
+        margin: 25px auto;
+        border-radius: 10px;
+        transition: 0.3s ease; 
+        box-shadow: 1px 1px 1px rgb(0, 0, 0); 
+    }
+    .title{
+        color: black;
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerContainer {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.mainHeader{
+    width: 100%;
+    padding: 8rem;
+    background-image: url("https://eu.louisvuitton.com/content/dam/lv/online/high-end/men/bags/BC_Edito_Men_Formal_Timeless_Business_Wear.html/jcr:content/assets/MEN_FORMAL_002-007_LVCOM_2048x1152_DI3.jpg?imwidth=2400");
+    /* background-image: url("https://www.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton--BC_MEN_SS24_PRECO_DL2_25_LVCOM_2048x1152_DI3.jpg?wid=2400"); */
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    text-align: center;
+    background-size: cover;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0); 
+}
+.mainHeaderBtn{
+    width: 5rem;
+    font-size: 0.75rem;
+    border: solid 0.5px rgb(0, 0, 0);
+}
+.profileBtn{
+    width: 6rem;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.244);
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: 600;
+    transition: 0.3s ease; 
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 0;
+}
+.profileBtn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+.headerTitle {
+    text-align: center;
+    font-size: 4rem;
+}
+.headerParagraph{
+    font-size: medium;
+    font-weight: 500; 
+}
+
+
+@media (max-width: 878px) {
+    .mainHeader{
+     padding: 5rem;
+    }
+    .signUpBtn{
+        width: 4rem;
+        height: 2rem;
+        display: grid;
+        justify-items: center;
+    }
+    .headerTitle {
+        text-align: center;
+        font-size: 1.5rem;
+        text-shadow: 2px 2px 6px rgb(0, 0, 0); 
+        font-weight: 500; 
+    }
+    .headerParagraph{
+        font-size: small;
+        text-decoration: underline;
+        font-weight: 500; 
+        text-shadow: 2px 2px 6px rgb(0, 0, 0); 
+    }
+    .headerSecondParagraph{
+        font-weight: 500; 
+        font-size: small;
+        text-shadow: 2px 2px 6px rgb(0, 0, 0); 
+    }
+}
+
