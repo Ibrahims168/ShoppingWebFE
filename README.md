@@ -18,15 +18,12 @@ Utilizing React hooks (useState, useEffect, useContext), along with the Axios li
 - useState: Manages dynamic state for components, facilitating features like order and favorite list handling.
 - useEffect: Ensures efficient handling of side effects, such as updating the UI after state changes.
 - useContext: Enables centralized authentication state, streamlining user-specific operations.
-  
-## User Actions:
+### User Actions:
 - Add to Order/Favorite List: Functions to add items to the user's order or favorite list with dynamic handling of price and stock.
 - Error Handling: Robust error handling mechanisms for smooth user experience and fault tolerance.
-
 ### User Deletion:
 - User Deletion: Complete user deletion ensures the removal of associated data, maintaining data integrity.
-
-## Search Functionality:
+### Search Functionality:
 - Search Bar: Implements a search bar for users to easily find products, enhancing the overall shopping experience.
 
 ## Framework and Technology:
@@ -39,7 +36,6 @@ Utilizing React hooks (useState, useEffect, useContext), along with the Axios li
   
 ## Styling:
 - CSS Modules: Locally scoped styling for better component encapsulation.
-
 ## Navigation:
 - React Router: Enables seamless navigation between different pages.
 
